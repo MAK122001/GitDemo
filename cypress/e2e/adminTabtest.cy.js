@@ -4,6 +4,8 @@ import { LoginPage } from "./pages/login_page"
 const loginpage = new LoginPage()
 var usernameName='Test@2102'; // need to be unique and first checked into the records
 var empName='Ranga Akunuri';  //sometimes fail due to unavailability of the name on site,need to change name and check
+var myname='Adnan';
+
 describe('AddUserFunctionality', () => {
 
       beforeEach(() =>{
